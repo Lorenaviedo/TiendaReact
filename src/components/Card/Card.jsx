@@ -4,7 +4,6 @@ import {PlusIcon} from '@heroicons/react/24/solid';
 function Card(props) {
     const {product} = props;
     return(
-        
         <div className="bg-white cursor-pointer w-55 h-60">
             <div className='top-0 right-0 flex justify-center bg-black items-center w-6 h-6 rounded-full m-2 p-1'>
                 <PlusIcon className='h-6 w-6 text-white'/>
@@ -15,7 +14,7 @@ function Card(props) {
             </figure>
             <p className="flex justify-between">
                 <span className="text-sm font-light">{product.name_product}</span>
-                <span className="text-sm font-medium">Price</span>
+                <span className="text-sm font-medium">{product.price}</span>
             </p>
         </div>
     )
