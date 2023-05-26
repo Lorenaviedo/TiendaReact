@@ -8,6 +8,7 @@ import Signin from "../pages/Signin/Signin.jsx"
 import Notfound from "../pages/Notfound/Notfound.jsx"
 
 function App() {
+  let nombre = "Andres";
   return (
     <BrowserRouter>
       <Navbar />

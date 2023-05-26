@@ -1,6 +1,10 @@
+import Layout from "../../components/Layout/Layout";
+
 function Signin() {
     return(
-        <div></div>
+        <Layout>
+            <div>Iniciar sesion</div>
+        </Layout>
     )
 }
 export default Signin;

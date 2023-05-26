@@ -244,7 +244,7 @@ export const infoProducts = [
         name_product: "Audifonos inalambricos",
         price: 790,
         description: "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-        image: "https://res.cloudinary.com/cloudmulti/image/upload/v1664403247/ecommerce_tecnology/Categorias/Audifonos_inalambricos_oqmcte.svgp",
+        image: "https://www.technostore.co/wp-content/uploads/2023/02/4_3c535528-36c2-4e41-9f5c-ab06e630f8f3.webp",
         category: {
             id: 2,
             name_category: "Tecnologia",
@@ -256,7 +256,7 @@ export const infoProducts = [
         name_product: "Cargador para Celular",
         price: 120,
         description: "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-        image: "https://res.cloudinary.com/cloudmulti/image/upload/v1664403247/ecommerce_tecnology/Categorias/https://res.cloudinary.com/cloudmulti/image/upload/v1664403247/ecommerce_tecnology/Categorias/Cargador_para_Celular_fgqxf6.svg_fgqxf6.svg",
+        image: "https://amlcomercializadora.com/wp-content/uploads/2021/06/AM00582-3.jpg",
         category: {
             id: 2,
             name_category: "Tecnologia",

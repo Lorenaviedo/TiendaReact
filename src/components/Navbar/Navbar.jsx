@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { ShoppingCartIcon } from "@heroicons/react/24/solid";
 
 const Navbar = () => {
     const styleActive = "underline underline-offset-4"
@@ -29,6 +30,15 @@ const Navbar = () => {
                     <NavLink to="/my-account" className={({isActive}) => isActive ? styleActive : undefined}>
                         My account
                     </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/sign-in" className={({isActive}) => isActive ? styleActive : undefined}>
+                        Iniciar Sesion
+                    </NavLink>
+                </li>
+                <li className="flex items-center">
+                    <ShoppingCartIcon className="h-6 w-6 text-black-500"/>
+                    <div>0</div>
                 </li>
             </ul>
         </nav>
