@@ -1,4 +1,4 @@
-import { useState } from 'react'
+/*import { useState } from 'react'*/
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from "../pages/Home/Home.jsx"
 import Navbar from "../components/Navbar/Navbar.jsx";
@@ -6,12 +6,13 @@ import Myaccount from "../pages/Myaccount/Myaccount.jsx"
 import Myorders from "../pages/Myorders/Myorders.jsx"
 import Signin from "../pages/Signin/Signin.jsx"
 import Notfound from "../pages/Notfound/Notfound.jsx"
+import CheckoutSideMenu from '../components/CheckoutSideMenu/CheckoutSideMenu.jsx'
 
 function App() {
-  let nombre = "Andres";
   return (
     <BrowserRouter>
       <Navbar />
+      <CheckoutSideMenu />
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path='/my-account' element={<Myaccount />} />

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Card from "../../components/Card/Card";
-import Navbar from "../../components/Navbar/Navbar";
-import Layout from "../../components/Layout/Layout";
-import { infoProducts } from "../../utils/Dataproducts";
+import { useContext } from "react";
+import Card from "../../components/Card/Card.jsx";
+import Layout from "../../components/Layout/Layout.jsx";
+import { infoProducts } from "../../utils/Dataproducts.js";
 
 function Home() {
     return(
@@ -17,7 +17,6 @@ function Home() {
                         <Card key={product.id} product={product}/>
                     ))
                 }
-                {/*<Card />*/}
             </div>
         </Layout>
     )
