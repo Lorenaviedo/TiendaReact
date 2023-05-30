@@ -11,8 +11,12 @@ function Card(props) {
         context.openCheckout();
         context.setCartProducts([...context.cartProducts, dataProduct]);
     }
+    /*const showProductDetail = (dataProduct) => {
+        context.openDetail();
+        context.setCartProducts([...context.cartProducts, dataProduct]);
+    }*/
     return(
-        <div className="cursor-pointer w-55 h-60 border rounded-lg">
+        <div /*onClick={() => showProductDetail(product)}*/ onClick={context.openDetail} className="cursor-pointer w-55 h-60 border rounded-lg">
             <figure className="relative mb-3 w-full h-4/5">
                 <span className="absolute bottom-0 left-0 bg-white/60 rounded-lg text-black text-xs mt-2 p-1">
                     {product.category.name_category}

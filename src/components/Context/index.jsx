@@ -13,11 +13,22 @@ const ContextShoping = ({children}) => {
     const closeCheckout = () => {
         setCheckoutOpen(false);
     }
+
+    /****************************** DETAIL *********************************/
+    const [isDetailOpen, setDetailOpen] = useState(false);
+    const openDetail = () => {
+        setDetailOpen(true);
+    }
+    const closeDetail = () => {
+        setDetailOpen(false);
+    }
+
     return(
         <contextProvider.Provider value={{
             count, setCount,
             cartProducts, setCartProducts, 
-            isCheckoutOpen, openCheckout, closeCheckout
+            isCheckoutOpen, openCheckout, closeCheckout,
+            isDetailOpen, openDetail, closeDetail
             }}>
                 {children}
         </contextProvider.Provider>

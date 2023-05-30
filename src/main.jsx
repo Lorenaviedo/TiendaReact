@@ -7,7 +7,7 @@ import { ContextShoping } from './components/Context/index.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ContextShoping>
-      <App />
+      <App /> 
     </ContextShoping>
   </React.StrictMode>,
 )
